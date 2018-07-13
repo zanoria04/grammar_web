@@ -23,6 +23,7 @@ body {
     font-size: 55px;
     opacity: 0.7;
     text-shadow: 9px 2px 4px grey;
+    background-attachment: fixed;
 }
 
 nav {
