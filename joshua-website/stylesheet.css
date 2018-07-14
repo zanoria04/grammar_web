@@ -6,13 +6,6 @@ body {
     padding: 0;
 }
 
-/*.search-section {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}*/
-
 * {
   box-sizing: border-box;
   font-family: sans-serif;
@@ -40,12 +33,12 @@ nav {
     overflow: hidden;
     background-color: #333;
     width: 100%;
+    letter-spacing: 1px;
 }
 
 li {
     float: left;
     font-size: 15px;
-
 }
 
 li {
@@ -95,17 +88,15 @@ li.dropdown {
   color: black;
 }
 
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
 
 .definition {
     position: relative;
     color: orange;
     float: left;
+    letter-spacing: 2px;
 }
 
 .definition table {
@@ -120,18 +111,7 @@ li.dropdown {
 
 .definition td {
     padding: 10px;
-
 }
-
-/*.fa {
-  padding: center;
-  font-size: 10px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-} */
 
 .fa {
   text-align: center;
@@ -178,22 +158,19 @@ li.dropdown {
 .logo-hover:hover {
     opacity: 0.7;
 }
+
 /* Style the footer */
+
 .footer {
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
     background: rgba(0,0,0,0.8);
-    /*position: absolute;
-    top: 100%;*/
-
-
 }
 
 .footer a {
     font-size: 20px;
     color: white;
-
 }
 
 .copyright {
@@ -202,6 +179,5 @@ li.dropdown {
     text-align: bottom;
     padding-bottom: 5px;
     color: grey;
-
 }
 
