@@ -37,6 +37,17 @@ h1 {
 	color: orange;
 	text-shadow: 0px -8px 10px black;
 }
+
+h3 {
+	color: orange;
+	text-decoration: underline;
+}
+
+h4 {
+	font-style: normal;
+	color: #00ff00;
+}
+
 article {
 	margin: 0 200px 200px 200px;
 	padding: 50px;
@@ -53,7 +64,7 @@ table {
 	font-style: italic;
 }
 
-.underline {
-	text-decoration: underline overline wavy;
-	font-style: normal;
+td, li {
+	font-style: italic;
+	color: orange;
 }
