@@ -1,5 +1,8 @@
 body {
 	background: url('background.png') no-repeat;
+	/*background-color: coral;*/
+	/*background-color: rgba(201, 76, 76, 0.3);*/
+	/*background-color: #fefbd8;*/
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -67,4 +70,8 @@ table {
 td, li {
 	font-style: italic;
 	color: orange;
+}
+
+p {
+	
 }
