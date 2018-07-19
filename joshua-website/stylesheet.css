@@ -13,6 +13,22 @@ body {
   font-family: sans-serif;
 }
 
+.navbar {
+  overflow: visible;
+}
+
+.dropdown-menu a:hover  {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+
+
+
 #space {
   height: 500px;
 }
@@ -92,7 +108,7 @@ li.drpdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
 }
 
-.drpdown-content a:hover {
+.dropdown-item a:hover {
   background-color: #f1f1f1;
   color: black;
   text-decoration: none;
