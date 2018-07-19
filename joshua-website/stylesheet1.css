@@ -1,8 +1,5 @@
 body {
 	background: url('background.png') no-repeat;
-	/*background-color: coral;*/
-	/*background-color: rgba(201, 76, 76, 0.3);*/
-	/*background-color: #fefbd8;*/
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -12,6 +9,7 @@ body {
 * {
 	box-sizing: border-box;
 	font-family: sans-serif;
+	color:rgb(132, 60, 12);
 }
 #header {
 	height: 100px;
@@ -34,44 +32,48 @@ body {
     color: white;
 }
 
-h1 {
+.h1 {
 	text-align: left;
 	margin: 80px 200px 20px 200px;
-	color: orange;
-	text-shadow: 0px -8px 10px black;
+	text-shadow: 0px -4px 10px white;
 }
 
-h3 {
-	color: orange;
-	text-decoration: underline;
-}
-
-h4 {
+.h4 {
 	font-style: normal;
-	color: #00ff00;
 }
 
 article {
 	margin: 0 200px 200px 200px;
 	padding: 50px;
-	background: rgba(0,0,0,0.9);
+	background: rgb(251, 229, 214);
 	box-shadow: 10px 13px 32px 0px rgba(0,0,0,0.8);
-	color: white;
 	letter-spacing: 2px;
 	word-spacing: 5px;
+    color: #A52A2A;
 }
 
 table {
-	border-spacing: 10px;
-	width: 100%;
 	font-style: italic;
 }
 
-td, li {
-	font-style: italic;
-	color: orange;
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-b {
-	color: #00ff00;
+#table td, #table th {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#table th {
+    text-align: left;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+}
+
+li {
+	font-style: italic;
 }
