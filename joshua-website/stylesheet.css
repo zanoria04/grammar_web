@@ -12,6 +12,10 @@ body {
   font-family: sans-serif;
 }
 
+.navbar {
+  z-index: 1;
+}
+
 #space h1 {
     position: relative;
     width: 100%;
