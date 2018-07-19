@@ -1,7 +1,8 @@
 body {
-    background: url('background.png') no-repeat;
-    /*background-color: coral;*/
-    background-size: cover;
+    background: url('picture1.png') no-repeat;
+    background-color: coral;
+
+    background-size:100% 100%;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -12,9 +13,11 @@ body {
   font-family: sans-serif;
 }
 
-.navbar {
-  z-index: 1;
+#space {
+  height: 500px;
 }
+
+
 
 #space h1 {
     position: relative;
