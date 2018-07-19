@@ -58,22 +58,23 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li:hover, .dropdown:hover .dropbtn  {
+li:hover, .drpdown:hover .dropbtn  {
     background-color: #A9A9A9;
+    text-decoration: none;
 }
 
-li.dropdown {
+li.drpdown {
     display: inline-block;
 }
 
-.dropdown-content {
+.drpdown-content {
     display: none;
     position: absolute;
     min-width: 160px;
     z-index: 1;
 }
 
-.dropdown-content a {
+.drpdown-content a {
     color: orange;
     padding: 12px 16px;
     text-decoration: none;
@@ -84,12 +85,13 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
 }
 
-.dropdown-content a:hover {
+.drpdown-content a:hover {
   background-color: #f1f1f1;
   color: black;
+  text-decoration: none;
 }
 
-.dropdown:hover .dropdown-content {
+.drpdown:hover .drpdown-content {
     display: block;
 }
 
