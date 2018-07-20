@@ -150,6 +150,7 @@ li.drpdown {
 .fa:hover {
     opacity: 0.7;
 }
+
 /*
 .fa-facebook {
   background: #3B5998;
@@ -170,8 +171,8 @@ li.drpdown {
   background: #00aff0;
   color: white;
 }
-
 */
+
 
 .line {
   border-style: dotted;
@@ -204,4 +205,3 @@ li.drpdown {
     padding-bottom: 5px;
     color: grey;
 }
-
