@@ -1,7 +1,6 @@
 body {
     background: url('picture1.png') no-repeat;
     background-color: coral;
-
     background-size:100% 100%;
     background-attachment: fixed;
     margin: 0;
